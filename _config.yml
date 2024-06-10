@@ -1,9 +1,9 @@
 # main text of home
-title: Indrajeet Kumar
-bio: Software Development Engineer | Java Developer
+title: Umesh Uddar
+bio: Data Scientist 
 
 # twitter summary info
-description: Indrajeet's Personal Website
+description: Umesh's Personal Website
 
 # if it's an external image, update below for true
 # better with square images
@@ -20,8 +20,8 @@ resume: true
 resume-external: true
 resume-url: /assets/Resume_Umesh.pdf
 
-domain: officio-indrajeet.github.io
-url: https://officio-indrajeet.github.io
+domain: http://umesh660.github.io
+url: http://umesh660.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -38,14 +38,14 @@ disqus:
 #facebook: myfacebook
 #twitter: mytwitter
 #instagram: indrajeet1103
-linkedin: indrajeet-1103
-github: officio-indrajeet
-email: kumari@tcd.ie
+linkedin: https://www.linkedin.com/in/umesh-uddar-99ba66186/
+github: umesh660
+email: uu1n23@soton.ac.uk
 
 authors:
   indrajeetk:
-    name: Indrajeet Kumar
-    bio: Software Development Engineer | Java Developer
+    name: Umesh Uddar
+    bio: Data Scientist
     external-image: false
     picture: /assets/images/images.jpg
    # twitter: johndoe
