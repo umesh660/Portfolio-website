@@ -34,24 +34,18 @@ disqus:
   categories: [blog, project] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-linkedin: mylinkedin
-github: mygithub
-email: myemail@gmail.com
+linkedin: https://www.linkedin.com/in/umesh-uddar-99ba66186/
+github: umesh660
+email: uu1n23@soton.ac.uk
 
 authors:
   johndoe:
-    name: John Doe
-    bio: A Man who travels the world eating noodles
+    name: Umesh Uddar
+    bio: Data Scietist
     external-image: false
     picture: assets/images/profile.jpg
-    twitter: johndoe
-  jamesfoster:
-    name: James Foster
-    bio: A Man who develops software with coffee
-    external-image: false
-    picture: assets/images/james.jpg
-    twitter: jamesfoster
-
+    # twitter: johndoe
+  
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
