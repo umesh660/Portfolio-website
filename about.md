@@ -58,26 +58,6 @@ layout: page
     <li>Advanced NLP Techniques: Langchain, llm, ChromaDB</li>
 </ul>
 
-<h2>Projects</h2>
-
-<ul>
-    <li><a href="https://github.com/">Lorem Lorem</a></li>
-    <li><a href="https://github.com/">Ipsum Dolor</a></li>
-    <li><a href="https://github.com/">Dolor Lorem</a></li>
-</ul>
-
-<h3>Notable Projects</h3>
-
-<p><strong>Image Classification Model Development</strong></p>
-<ul>
-    <li>Developed an image classification model using TensorFlow and Keras to classify images as "Happy" or "Sad" with 93.5% accuracy.</li>
-</ul>
-
-<p><strong>Web Content Analysis</strong></p>
-<ul>
-    <li>Utilized LangChain and OpenAI module for NLP tasks, including document loading, text chunking, embeddings, and similarity search.</li>
-</ul>
-
 <h2>Contact</h2>
 
 <p>UMESH U | +44 7918572183 | umeshuddar1997@gmail.com | <a href="https://github.com/umesh660">GitHub</a> | <a href="https://medium.com/@umeshuddar1997">Medium</a></p>
