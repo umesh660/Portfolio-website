@@ -1,14 +1,14 @@
 # main text of home
-title: Umesh Udaar
-bio: Data Scientist
+title: Indrajeet Kumar
+bio: Software Development Engineer | Java Developer
 
 # twitter summary info
-description: A blog about technology and stuff related
+description: Indrajeet's Personal Website
 
 # if it's an external image, update below for true
 # better with square images
 external-image: false
-picture: assets/images/profile.jpg
+picture: /assets/images/new.jpg
 
 # your site color theme, true for dark theme, 
 # false to light theme, auto to switch with system.
@@ -18,9 +18,10 @@ dark-theme: false
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: /assets/Resume_Umesh.pdf
+resume-url: /assets/files/Indrajeet's_Resume.pdf
 
-url: https://sergiokopplin.github.io/indigo
+domain: officio-indrajeet.github.io
+url: https://officio-indrajeet.github.io
 # your url: https://USERNAME.github.io
 
 permalink: /:title/
@@ -30,21 +31,24 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-  shortname: github # enter this from your disqus account
-  categories: [blog, project] # only show disqus for posts that have these categories
+  shortname: mydisqus # enter this from your disqus account
+  categories: [] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
-linkedin: https://www.linkedin.com/in/umesh-uddar-99ba66186/
-github: umesh660
-email: uu1n23@soton.ac.uk
+#facebook: myfacebook
+#twitter: mytwitter
+#instagram: indrajeet1103
+linkedin: indrajeet-1103
+github: officio-indrajeet
+email: kumari@tcd.ie
 
 authors:
-  johndoe:
-    name: Umesh Uddar
-    bio: Data Scietist
+  indrajeetk:
+    name: Indrajeet Kumar
+    bio: Software Development Engineer | Java Developer
     external-image: false
-    picture: assets/images/profile.jpg
-    # twitter: johndoe
+    picture: /assets/images/images.jpg
+   # twitter: johndoe
   
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
@@ -56,7 +60,7 @@ projects: true
 
 # if you don't need "about" or "blog", comment them out below
 about: true
-blog: true
+#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true
@@ -70,7 +74,7 @@ related: true
 # Display links for next and previous posts for the specified categories
 post-advance-links: [blog]
 
-# show author block at the end of a post ?
+# show author block at the end of a post?
 show-author: true
 
 # do you want some animations?
