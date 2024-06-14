@@ -18,9 +18,6 @@ layout: page
     <li>Programming Languages: Python (Numpy, Pandas, Matplotlib, Seaborn, Keras, TensorFlow, ComputerVision), R (ggplot2, dplyr, tidyr, randomForest, glm, Shiny)</li>
     <li>Visualization Tools: PowerBI, MS Visio, Excel, VBA</li>
     <li>Tools: Google Analytics, MySQL, Metabase</li>
-    <li>Web Technologies: HTML, CSS (Stylus, Sass, Less), JavaScript (Design Patterns, Tests), AngularJS, ReactJS</li>
-    <li>Frameworks: Bootstrap, Foundation</li>
-    <li>Development Tools: Grunt, Gulp, Yeoman</li>
     <li>Version Control: Git</li>
     <li>Databases: MySQL, MongoDB</li>
     <li>Project Management: Scrum, Kanban, TDD, Continuous Integration</li>
