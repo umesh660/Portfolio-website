@@ -2,129 +2,92 @@
 layout: page
 title: Projects
 ---
-<h2 class="title" >PROJECTS</h2>
-<!-- <section class="list">
-    {% for post in site.posts %}
-        {% if post.projects %}
-            <div class="item {% if post.star %}star{% endif %}" >
-                <a class="url" href="{% if post.externalLink %}{{ post.externalLink }}{% else %}{{ site.url }}{{ post.url }}{% endif %}">
-                    <h3 class="title" style="font-family: 'Noto Serif';">{{ post.ct }}. {{ post.title }}</h3>
-                </a>
-            </div>
-        {% endif %}
-    {% endfor %} -->
 
-    <ol class="skill-list" style="font-family: 'Comic Sans MS';">
+<h2 class="title">PROJECTS</h2>
+
+<ol class="skill-list" style="font-family: 'Comic Sans MS';">
     
-        
-        <li>
-  <h4 style="font-family: 'Comic Sans MS';">
-    <a href="https://github.com/umesh660/Image_Classification">Image Classification Model Development</a> [Python, TensorFlow, Keras]
-  </h4>
-</li>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • Developed an image classification model using Python in a Google Colab environment leveraging TensorFlow and Keras libraries. The project aimed to classify images into two categories: "Happy" and "Sad".
-</p>
-<ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  <li><b>Data Preprocessing:</b> Implemented data preprocessing steps including image extension validation and removal of unsupported image files. Ensured data integrity and compatibility for model training.</li>
-  <li><b>Model Development:</b> Constructed a convolutional neural network (CNN) architecture using Keras Sequential API. Designed the model with convolutional layers, max-pooling layers, and dense layers to extract features and perform classification tasks effectively.</li>
-  <li><b>Model Training:</b> Utilized TensorFlow's image dataset API to split the data into training, validation, and test sets. Trained the model using the Adam optimizer and binary cross-entropy loss function. Monitored model performance on validation data to prevent overfitting.</li>
-  <li><b>Model Evaluation:</b> Evaluated model performance metrics, including precision, recall, and binary accuracy, achieving a commendable accuracy of 93.5% on the test set.</li>
-  <li><b>Prediction Demonstration:</b> Provided an example of model usage for making predictions on new images. Demonstrated the application of the trained model to classify images as "Happy" or "Sad" based on learned features.</li>
-</ul>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • Outcome: Successfully developed an image classification model achieving high accuracy in distinguishing between "Happy" and "Sad" images. Contributed to advancing the understanding and application of deep learning techniques for image analysis tasks.
-</p>
-<li>
-  <h4 style="font-family: 'Comic Sans MS';">
-    <a href="https://github.com/umesh660/Forecasting-Economic-Indicators-and-FTSE-100-A-Technical-Report">Forecasting Economic Indicators and FTSE 100: A Technical Report</a> [Python, ARIMA, Exponential Smoothing]
-  </h4>
-</li>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • This report forecasts UK economic indicators and the FTSE 100 index until December 2024 using exponential smoothing and ARIMA models on datasets from the UK Government Office for National Statistics (ONS).
-</p>
-<ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  <li><b>Data Preparation:</b> Sourced data from ONS, ensuring all datasets are monthly and cover the same period. Handled missing values and normalized the data.</li>
-  <li><b>Forecasting Methods:</b> Applied exponential smoothing to forecast each series separately. Compared ARIMA and exponential smoothing for Average Weekly Earnings (K54D).</li>
-  <li><b>Multivariate Regression Model:</b> Used the four series (K54D, EAFV, K226, JQ2J) to predict the FTSE 100 index, aligning datasets and developing a regression model.</li>
-  <li><b>Results:</b> Presented forecasts for each series. Compared ARIMA and exponential smoothing for K54D. Evaluated the regression model for FTSE 100.</li>
-</ul>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • Conclusion: Summarized findings and provided recommendations.
-</p>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • Appendix: Python code descriptions for data preparation, exponential smoothing, ARIMA for K54D, and FTSE 100 regression model development and validation.
-</p>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  This report provides robust predictions for economic indicators and the FTSE 100, aiding Future Stocks in informed decision-making.
-</p>
+    <li>
+        <h4 style="font-family: 'Comic Sans MS';">
+            <a href="https://github.com/umesh660/Image_Classification">Image Classification Model Development</a> [Python, TensorFlow, Keras]
+        </h4>
+        <p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            Developed an image classification model using Python in a Google Colab environment, leveraging TensorFlow and Keras libraries. The project aimed to classify images into "Happy" and "Sad" categories, implementing data preprocessing, model development, training, and evaluation steps. Achieved a 93.5% accuracy on the test set.
+        </p>
+        <ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            <li><b>Data Preprocessing:</b> Validated image extensions and removed unsupported files, ensuring compatibility for model training.</li>
+            <li><b>Model Development:</b> Built a CNN using Keras, including convolutional, max-pooling, and dense layers for feature extraction and classification.</li>
+            <li><b>Model Training:</b> Split data into training, validation, and test sets; trained using Adam optimizer and binary cross-entropy loss.</li>
+            <li><b>Model Evaluation:</b> Assessed precision, recall, and accuracy, with a final accuracy of 93.5% on the test set.</li>
+            <li><b>Prediction Demonstration:</b> Demonstrated the model's ability to classify new images as "Happy" or "Sad."</li>
+        </ul>
+    </li>
+    
+    <li>
+        <h4 style="font-family: 'Comic Sans MS';">
+            <a href="https://github.com/umesh660/Forecasting-Economic-Indicators-and-FTSE-100-A-Technical-Report">Forecasting Economic Indicators and FTSE 100</a> [Python, ARIMA, Exponential Smoothing]
+        </h4>
+        <p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            This technical report forecasts UK economic indicators and the FTSE 100 index using datasets from the UK Government Office for National Statistics (ONS). The report applies exponential smoothing and ARIMA models to predict trends until December 2024, aiding in strategic decision-making.
+        </p>
+        <ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            <li><b>Data Preparation:</b> Sourced and normalized monthly data from ONS, handling missing values.</li>
+            <li><b>Forecasting Methods:</b> Applied exponential smoothing and compared it with ARIMA for specific indicators like Average Weekly Earnings (K54D).</li>
+            <li><b>Multivariate Regression Model:</b> Used multiple economic indicators to predict the FTSE 100 index.</li>
+            <li><b>Results:</b> Presented forecasts and compared model performance, providing actionable insights for stakeholders.</li>
+            <li><b>Appendix:</b> Included Python code for data preparation, model development, and validation.</li>
+        </ul>
+    </li>
+    
+    <li>
+        <h4 style="font-family: 'Comic Sans MS';">
+            <a href="https://github.com/umesh660/Web-Content-Analysis-Using-Langchain">Web Content Analysis: Extracting Insights from Website Text</a> [Python, LangChain, OpenAI]
+        </h4>
+        <p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            Utilized advanced NLP techniques with LangChain and OpenAI to process and analyze textual data from websites. The project demonstrated expertise in text chunking, embeddings, vectorization, and similarity search to extract meaningful insights from large text corpora.
+        </p>
+        <ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            <li><b>Module Integration:</b> Integrated LangChain modules to streamline text processing workflows.</li>
+            <li><b>API Key Configuration:</b> Configured secure access to OpenAI's API for seamless project integration.</li>
+            <li><b>Text Processing:</b> Employed text chunking and vectorization techniques to handle and analyze large documents.</li>
+            <li><b>Similarity Search:</b> Used OpenAI embeddings and FAISS for efficient retrieval of related documents.</li>
+            <li><b>Result Visualization:</b> Displayed documents similar to query inputs, providing actionable insights.</li>
+        </ul>
+    </li>
+    
+    <li>
+        <h4 style="font-family: 'Comic Sans MS';">
+            <a href="https://github.com/umesh660/Kidney-Disease-Classification-Deep-Learning-Project-main">Kidney Disease Classification</a> [Python, TensorFlow, MLflow, DVC]
+        </h4>
+        <p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            Implemented deep learning techniques to classify kidney disease, utilizing MLflow for experiment tracking and DVC for data management. The project included model training, evaluation, and deployment through CI/CD pipelines, ensuring robustness and reproducibility.
+        </p>
+        <ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            <li><b>Experiment Tracking:</b> Used MLflow to track model metrics and parameters across multiple runs.</li>
+            <li><b>Data Version Control:</b> Managed datasets and machine learning pipelines with DVC.</li>
+            <li><b>Model Training:</b> Developed and fine-tuned deep learning models for accurate classification.</li>
+            <li><b>Pipeline Orchestration:</b> Integrated CI/CD pipelines for automated testing and deployment.</li>
+            <li><b>Deployment:</b> Deployed models on AWS, ensuring scalability and accessibility.</li>
+        </ul>
+    </li>
 
-<li>
-  <h4 style="font-family: 'Comic Sans MS';">
-    <a href="https://github.com/umesh660/Web-Content-Analysis-Using-Langchain">Web Content Analysis: Extracting Insights from Website Textual Data</a> [Python, LangChain, OpenAI]
-  </h4>
-</li>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • Utilized advanced NLP techniques with LangChain, particularly leveraging the LangChain OpenAI module, to address diverse text processing challenges.
-</p>
-<ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  <li><b>Module Integration:</b> Integrated essential modules from LangChain and other libraries to streamline text processing workflows.</li>
-  <li><b>API Key Configuration:</b> Configured environment variables for secure access to OpenAI's powerful API, ensuring seamless integration into the project environment.</li>
-  <li><b>Library Management:</b> Managed library dependencies effectively by installing and updating the LangChain OpenAI library to ensure compatibility and access to the latest features.</li>
-  <li><b>Module Utilization:</b> Leveraged various modules from LangChain OpenAI to perform tasks such as document loading, text chunking, embeddings, and vectorization, demonstrating proficiency in utilizing advanced NLP tools.</li>
-  <li><b>Model Initialization:</b> Initialized OpenAI's language model instance with tailored parameters, fine-tuning settings like temperature and maximum tokens for optimal performance in text generation tasks.</li>
-  <li><b>Data Acquisition:</b> Employed an asynchronous HTML loader to efficiently fetch and load data from specified URLs, enabling seamless integration of external text sources into the project pipeline.</li>
-  <li><b>Text Processing:</b> Employed techniques such as text chunking to break down large HTML documents into manageable segments, facilitating efficient processing and analysis of textual data.</li>
-  <li><b>Vectorization and Similarity Search:</b> Utilized OpenAI embeddings and FAISS for vectorization of document chunks and performed similarity search operations, enabling efficient retrieval of documents related to specified query strings.</li>
-  <li><b>Result Visualization:</b> Implemented functionality to print documents similar to the provided query, providing actionable insights into the textual data corpus.</li>
-</ul>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • This project exemplifies a comprehensive approach to NLP, showcasing proficiency in utilizing cutting-edge tools and methodologies to address complex text processing challenges effectively.
-</p>
-<li>
-  <h4 style="font-family: 'Comic Sans MS';">
-    <a href="https://github.com/umesh660/Kidney-Disease-Classification-Deep-Learning-Project-main">Kidney Disease Classification: Leveraging Deep Learning Models for Accurate Diagnosis</a> [Python, TensorFlow, MLflow, DVC]
-  </h4>
-</li>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • Implemented state-of-the-art deep learning techniques to classify kidney disease, using a robust workflow powered by MLflow and DVC.
-</p>
-<ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  <li><b>Experiment Tracking:</b> Utilized MLflow to track experiments, capturing metrics, parameters, and artifacts, ensuring reproducibility and facilitating comparison of different model runs.</li>
-  <li><b>Data Version Control:</b> Employed DVC to manage datasets and machine learning pipelines, ensuring versioning of data and reproducibility of experiments.</li>
-  <li><b>Model Training:</b> Developed and trained deep learning models using TensorFlow, fine-tuning hyperparameters to optimize performance for kidney disease classification.</li>
-  <li><b>Pipeline Orchestration:</b> Designed and orchestrated machine learning pipelines, integrating DVC for streamlined data management and MLflow for seamless experiment tracking.</li>
-  <li><b>CI/CD Integration:</b> Configured continuous integration and continuous deployment (CI/CD) pipelines using AWS and GitHub Actions to automate testing and deployment processes, enhancing workflow efficiency.</li>
-  <li><b>Data Preprocessing:</b> Implemented preprocessing techniques including normalization and augmentation to prepare the kidney disease dataset for model training.</li>
-  <li><b>Model Evaluation:</b> Conducted extensive model evaluation using various metrics to assess the performance and robustness of the kidney disease classification models.</li>
-  <li><b>Deployment:</b> Set up deployment pipelines to automatically deploy trained models to a cloud environment using AWS, ensuring scalability and accessibility of the kidney disease classification service.</li>
-  <li><b>Documentation and Reporting:</b> Provided comprehensive documentation and reports detailing the experiment setup, data processing steps, model training process, and evaluation results, ensuring transparency and reproducibility.</li>
-</ul>
-<p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
-  • This project demonstrates expertise in deep learning, data management, and CI/CD practices, showcasing a complete end-to-end solution for kidney disease classification.
-</p>
+    <li>
+        <h4 style="font-family: 'Comic Sans MS';">
+            Real Estate Analysis Project
+        </h4>
+        <p style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            Analyzed real estate campaign performance across different cities and channels, identifying key metrics and developing data-driven strategies to optimize future campaigns for better engagement and ROI.
+        </p>
+        <ul style="font-family: 'Comic Sans MS';font-size:14px;color:black;">
+            <li><b>Key Metrics Identification:</b> Analyzed data to identify metrics driving the highest conversion rates.</li>
+            <li><b>Strategic Planning:</b> Developed strategies to optimize future campaigns based on data insights.</li>
+            <li><b>Outcome:</b> Provided actionable insights that improved campaign performance and efficiency.</li>
+        </ul>
+    </li>
 
-       <h1>Real Estate Analysis Project</h1>
+</ol>
 
-<ul>
-
-  <p>
-    🔹 Uncovered valuable insights into campaign performance across different cities and channels.
-  </p>
-  <ul>
-    <li><b>Identified Key Metrics:</b> Analyzed data to identify key metrics driving the highest conversion rates and ROI.</li>
-    <li><b>Data-Driven Strategies:</b> Developed data-driven strategies to optimize future campaigns for better engagement and results.</li>
-  </ul>
-  <p>
-    • This project demonstrates expertise in data analysis, visualization, and strategic planning, delivering actionable insights for campaign optimization.
-  </p>
-</ul>
-
-<img src="/assets/1.JPG" alt="Description of Image 1">
-<img src="/assets/2.JPG" alt="Description of Image 2">
-
-
-
-    </ol>
-
+<section>
+    <img src="/assets/1.JPG" alt="Real Estate Data Visualization 1" style="width:100%; height:auto;">
+    <img src="/assets/2.JPG" alt="Real Estate Data Visualization 2" style="width:100%; height:auto;">
 </section>
